@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0d61feb-60a3-48ae-800c-cb6bd4f5b35b" name="Default Changelist" comment="added 2.1-2.4 task">
+    <list default="true" id="a0d61feb-60a3-48ae-800c-cb6bd4f5b35b" name="Default Changelist" comment="added 2.4-2.8 task">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/nativ js/lessons/Lushenko_js/unit_02/unit_02.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/nativ js/lessons/Lushenko_js/unit_02/unit_02.js" afterDir="false" />
     </list>
@@ -157,7 +157,7 @@
       <workItem from="1631102034984" duration="3812000" />
       <workItem from="1631123781449" duration="6018000" />
       <workItem from="1631190164770" duration="315000" />
-      <workItem from="1631190734196" duration="10060000" />
+      <workItem from="1631190734196" duration="12020000" />
     </task>
     <task id="LOCAL-00001" summary="idea del">
       <created>1631106733372</created>
@@ -222,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631209435122</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added 2.4-2.8 task">
+      <created>1631211293384</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1631211293384</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,6 +255,7 @@
     <MESSAGE value="added 1.9 task" />
     <MESSAGE value="added 1.10 task" />
     <MESSAGE value="added 2.1-2.4 task" />
-    <option name="LAST_COMMIT_MESSAGE" value="added 2.1-2.4 task" />
+    <MESSAGE value="added 2.4-2.8 task" />
+    <option name="LAST_COMMIT_MESSAGE" value="added 2.4-2.8 task" />
   </component>
 </project>

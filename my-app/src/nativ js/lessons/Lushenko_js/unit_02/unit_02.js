@@ -118,13 +118,16 @@ document.querySelector('.b-8').addEventListener('click', function () {
 
 
 // Task 9
-// Давайте напишем функцию t9, которая позволяет выводить текст переданный ей в качестве аргумента text в блок block. При этом переданный текст с помощью trim очищается от пробелов до и после и переводится в нижний регистр. Зададим значение по умолчанию для text - пустую строку, это позволит нам избежать ошибок, если данный аргумент упустили, и добавим в функцию проверку - если block не существует, то функция ничего не выводит.
+// Давайте напишем функцию t9, которая позволяет выводить текст переданный ей в качестве аргумента text в блок block.
+// При этом переданный текст с помощью trim очищается от пробелов до и после и переводится в нижний регистр.
+// Зададим значение по умолчанию для text - пустую строку, это позволит нам избежать ошибок,
+// если данный аргумент упустили, и добавим в функцию проверку - если block не существует, то функция ничего не выводит.
 
 
 const out9 = document.querySelector('.out-9');
 
-function t9(text, block) {
-
+function t9(text = "", block) {
+    block ? block.innerHTML = text.trim().toLowerCase() : null;
 }
 
 document.querySelector('.b-9').addEventListener('click', function () {
@@ -138,11 +141,11 @@ document.querySelector('.b-9').addEventListener('click', function () {
 const out10 = document.querySelector('.out-10');
 
 function t10() {
-
+    out10.innerHTML = arguments.length
 }
 
 document.querySelector('.b-10').addEventListener('click', function () {
-    t10(33, 22, 44, 11, 55, 66, 11, 66);
+    t10(33, 22, 44, 11, 55, 66, 11);
 })
 
 
@@ -152,7 +155,11 @@ document.querySelector('.b-10').addEventListener('click', function () {
 const out11 = document.querySelector('.out-11');
 
 function t11() {
-
+    let sum = 0;
+    for (let i = 0; i < arguments.length; i++) {
+        sum += arguments[i];
+    }
+    out11.innerHTML = sum;
 }
 
 document.querySelector('.b-11').addEventListener('click', function () {
@@ -164,12 +171,12 @@ document.querySelector('.b-11').addEventListener('click', function () {
 
 const out12 = document.querySelector('.out-12');
 
-function t12() {
-
+function t12(...args) {
+    out12.innerHTML = args.reduce((acc, item) => acc += item)
 }
 
 document.querySelector('.b-12').addEventListener('click', function () {
-    t12(33, 22, 44, 11, 55, 66, 11, 66);
+    t12(33, 22);
 })
 
 
@@ -179,7 +186,7 @@ document.querySelector('.b-12').addEventListener('click', function () {
 const out13 = document.querySelector('.out-13');
 
 function t13(arr, funcArg) {
-
+    funcArg(arr)
 }
 
 // функции для вывода уже заготовлены
@@ -192,7 +199,7 @@ function showArrUnderscore(arr) {
 }
 
 document.querySelector('.b-13').addEventListener('click', function () {
-    t13([3, 4, 5], showArrSpace);
+    t13([3, 4, 5], showArrUnderscore);
     // попробуйте также вместо showArrSpace поставить showArrUnderscore
 })
 
@@ -203,20 +210,22 @@ document.querySelector('.b-13').addEventListener('click', function () {
 const out14 = document.querySelector('.out-14');
 
 function t14(arr, funcArg, block) {
-
+    funcArg(arr, block)
 }
 
 // функции для вывода уже заготовлены
 function showArrSpace2(arr, block) {
     // вывод в блок пишите как в предыдущем примере
+    block.innerHTML = arr.join(' ');
 }
 
 function showArrUnderscore2(arr, block) {
     // вывод в блок пишите как в предыдущем примере
+    block.innerHTML = arr.join('_');
 }
 
 document.querySelector('.b-14').addEventListener('click', function () {
-    t14([3, 4, 5], showArrSpace, out14);
+    t14([3, 4, 5], showArrUnderscore2, out14);
     // попробуйте также вместо showArrSpace2 поставить showArrUnderscore2
 })
 
@@ -227,7 +236,7 @@ document.querySelector('.b-14').addEventListener('click', function () {
 const out15 = document.querySelector('.out-15');
 
 function t15(num, even, odd) {
-
+    num % 2 == 0 ? even() : odd();
 }
 
 function showOne() {
@@ -240,5 +249,5 @@ function showTwo() {
 
 
 document.querySelector('.b-15').addEventListener('click', function () {
-    t15(5, showOne, showTwo);
+    t15(7, showOne, showTwo);
 })
