@@ -62,13 +62,14 @@ document.querySelector('.b-4').addEventListener('click', function () {
 
 // Task 5
 // Напишите функцию t5, которая делит число a на b и результат выводит в out-5. Если b равно нулю, то в out-5 выводится аргумент c, который по умолчанию равен нулю.
+const out5 = document.querySelector('.out-5');
 
-function t5(a, b, c) {
-
+function t5(a, b, c = 0) {
+    b != 0 ? out5.innerHTML = a / b : out5.innerHTML = c;
 }
 
 document.querySelector('.b-5').addEventListener('click', function () {
-    t5(7, 12, false);
+    t5(7, 0);
 })
 
 
@@ -78,7 +79,7 @@ document.querySelector('.b-5').addEventListener('click', function () {
 const out6 = document.querySelector('.out-6');
 
 function t6(arr, block) {
-
+    block.innerHTML = arr
 }
 
 document.querySelector('.b-6').addEventListener('click', function () {
@@ -87,26 +88,28 @@ document.querySelector('.b-6').addEventListener('click', function () {
 
 
 // Task 7
-// Давайте напишем функцию t7, которая выводит переданный ей массив (как аргумент arr) в блок (переданный как аргумент block) через пробел. Задайте аргумент arr равный по умолчанию пустому массиву. Добавьте внутрь функции проверку на массив аргумента arr. Если arr не массив, то в block выводим false. 
+// Давайте напишем функцию t7, которая выводит переданный ей массив (как аргумент arr) в блок (переданный как аргумент block) через пробел.
+// Задайте аргумент arr равный по умолчанию пустому массиву. Добавьте внутрь функции проверку на массив аргумента arr. Если arr не массив, то в block выводим false.
 
 const out7 = document.querySelector('.out-7');
 
-function t7(arr, block) {
-
+function t7(arr = [], block) {
+    Array.isArray(arr) ? block.innerHTML = arr : block.innerHTML = false;
 }
 
 document.querySelector('.b-7').addEventListener('click', function () {
-    t7([99, 44, 55, 66], out7);
+    t7(3, out7);
 })
 
 
 // Task 8
-// Давайте напишем функцию t8, которая позволяет выводить текст переданный ей в качестве аргумента text в блок block. При этом переданный текст с помощью trim очищается от пробелов до и после и переводится в нижний регистр. 
+// Давайте напишем функцию t8, которая позволяет выводить текст переданный ей в качестве аргумента text в блок block.
+// При этом переданный текст с помощью trim очищается от пробелов до и после и переводится в нижний регистр.
 
 const out8 = document.querySelector('.out-8');
 
 function t8(block, text) {
-
+    block.innerHTML = text.trim().toLowerCase()
 }
 
 document.querySelector('.b-8').addEventListener('click', function () {
