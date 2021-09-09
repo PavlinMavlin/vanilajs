@@ -200,12 +200,19 @@ let ar10 = [1, 2, 3, '4', '22', 8];
 let ar10_res = [];
 
 function showArr() {
+
     out10.textContent = ar10_res.join('_');
 }
 
 function t10() {
+    for (let i = 0; i < ar10.length; i++) {
+        if (typeof ar10[i] == "number") {
+            ar10_res.push(ar10[i]) ;
+        }
+    }
+    showArr()
     ar10_res = []; // очищаем
-
+    console.log(ar10_res)
 }
 
 document.querySelector('.b-10').addEventListener('click', t10);
