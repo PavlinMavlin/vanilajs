@@ -171,20 +171,29 @@ document.querySelector('.b-8').addEventListener('click', t8);
 
 
 // Task 9
-// Напишите функцию t9, которая в зависимости от значения переменной z9, делает активным option s.9 в таким же value. Внимание, z9 может иметь значения 1, 2, 3, 4, 5. Действия запускаются по кнопке .b-9.
+// Напишите функцию t9, которая в зависимости от значения переменной z9, делает активным option s.9 в таким же value.
+// Внимание, z9 может иметь значения 1, 2, 3, 4, 5. Действия запускаются по кнопке .b-9.
 
-let z9 = 3;
+let z9 = 4;
 const s9 = document.querySelector('.s-9');
 
 function t9() {
-
+    let option;
+    for (let i = 0; i < s9.options.length; i++) {
+        option = s9.options[i];
+        if (option.value == z9) {
+            option.setAttribute('selected', true);
+            return;
+        }
+    }
 }
 
 document.querySelector('.b-9').addEventListener('click', t9);
 
 
 // Task 10
-// Напишите функцию, которая перебирает массив ar10 и в ar10_res записывает только числа из ar10. В конце функции t10 для вывода массива запустите функцию showArr.
+// Напишите функцию, которая перебирает массив ar10 и в ar10_res записывает только числа из ar10.
+// В конце функции t10 для вывода массива запустите функцию showArr.
 
 const out10 = document.querySelector('.out-10');
 let ar10 = [1, 2, 3, '4', '22', 8];
