@@ -143,7 +143,8 @@ const out7 = document.querySelector('.out-7');
 let z7 = 91;
 
 function t7() {
-
+    z7 < 100 ? z7++ : ""
+    out7.innerHTML = z7
 }
 
 document.querySelector('.b-7').addEventListener('click', t7);

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0d61feb-60a3-48ae-800c-cb6bd4f5b35b" name="Default Changelist" comment="5 task">
+    <list default="true" id="a0d61feb-60a3-48ae-800c-cb6bd4f5b35b" name="Default Changelist" comment="7 task">
       <change beforePath="$PROJECT_DIR$/my-app/src/nativ js/lessons/Lushenko_js/unit_01.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/nativ js/lessons/Lushenko_js/unit_01.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -156,7 +156,7 @@
       <workItem from="1631102034984" duration="3812000" />
       <workItem from="1631123781449" duration="6018000" />
       <workItem from="1631190164770" duration="315000" />
-      <workItem from="1631190734196" duration="749000" />
+      <workItem from="1631190734196" duration="1066000" />
     </task>
     <task id="LOCAL-00001" summary="idea del">
       <created>1631106733372</created>
@@ -179,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631129654070</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="7 task">
+      <created>1631191519480</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1631191519480</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +207,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="idea del" />
     <MESSAGE value="5 task" />
-    <option name="LAST_COMMIT_MESSAGE" value="5 task" />
+    <MESSAGE value="7 task" />
+    <option name="LAST_COMMIT_MESSAGE" value="7 task" />
   </component>
 </project>
