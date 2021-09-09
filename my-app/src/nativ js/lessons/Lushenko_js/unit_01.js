@@ -98,6 +98,7 @@ function even() {
     out5.textContent = 'even';
 }
 
+//kk
 
 function t5() {
     const input = document.querySelector('.i-5')
@@ -109,7 +110,9 @@ document.querySelector('.b-5').addEventListener('click', t5);
 
 
 // Task 6
-// Давайте усложним задачу. У нас есть функцию getRandomInt2 которая использует переменные min, max выводит в out-2 случайное целое число. Напишите функцию t6, которая запускает getRandomInt2, после чего, получает из .out-2 сгенерированное число и определяет четное оно или нет. Если четное, запускает функцию even, если нет - odd. Обратите внимание, как написаны функции even, odd.
+// Давайте усложним задачу. У нас есть функцию getRandomInt2 которая использует переменные min, max выводит в out-2 случайное целое число.
+// Напишите функцию t6, которая запускает getRandomInt2, после чего, получает из .out-2 сгенерированное число и определяет четное оно или нет.
+// Если четное, запускает функцию even, если нет - odd. Обратите внимание, как написаны функции even, odd.
 
 const out6 = document.querySelector('.out-6');
 
@@ -125,7 +128,9 @@ function t6() {
     min = 10000;
     max = 10099;
     // тут запускаете getRandomInt2
-
+    getRandomInt2()
+    console.log(out2.innerHTML)
+    out2.innerHTML % 2 == 0 ? odd() : even()
 }
 
 document.querySelector('.b-6').addEventListener('click', t6);

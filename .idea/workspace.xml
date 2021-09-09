@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a0d61feb-60a3-48ae-800c-cb6bd4f5b35b" name="Default Changelist" comment="5 task">
+      <change beforePath="$PROJECT_DIR$/my-app/src/nativ js/lessons/Lushenko_js/unit_01.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/nativ js/lessons/Lushenko_js/unit_01.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1qTQKDRlkjgb2patQrm3M0NLPuL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/my-app" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/my-app/node_modules/react-scripts" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\it-kamasutra\big-vanila-project\my-app\src\nativ js\lessons" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\it-kamasutra\big-vanila-project\my-app\src\nativ js\lessons\Lushenko_js" />
+      <recent name="E:\it-kamasutra\big-vanila-project\my-app\src\nativ js\lessons\CSS les" />
+      <recent name="E:\it-kamasutra\big-vanila-project\my-app\src" />
+      <recent name="E:\it-kamasutra\big-vanila-project\my-app\src\nativ js\lessons" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Jest.add new company">
+    <configuration name="add new company" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/my-app/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$/my-app" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/my-app/src/10 lesson/10_01.test.ts" />
+      <test-names>
+        <test-name value="add new company" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="remove js book" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/my-app/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$/my-app" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/my-app/src/10 lesson/10_01.test.ts" />
+      <test-names>
+        <test-name value="remove js book" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="update js to ts" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/my-app/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$/my-app" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/my-app/src/10 lesson/10_01.test.ts" />
+      <test-names>
+        <test-name value="update js to ts" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="upgrade skills" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/my-app/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$/my-app" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/my-app/src/10 lesson/10_01.test.ts" />
+      <test-names>
+        <test-name value="upgrade skills" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/my-app/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="Jest.add new company" />
+        <item itemvalue="Jest.remove js book" />
+        <item itemvalue="Jest.upgrade skills" />
+        <item itemvalue="Jest.update js to ts" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a0d61feb-60a3-48ae-800c-cb6bd4f5b35b" name="Default Changelist" comment="" />
+      <created>1617101041678</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617101041678</updated>
+      <workItem from="1617101046157" duration="14464000" />
+      <workItem from="1617269280932" duration="112000" />
+      <workItem from="1618480688960" duration="502000" />
+      <workItem from="1619691411972" duration="1002000" />
+      <workItem from="1620035870097" duration="19840000" />
+      <workItem from="1620114387753" duration="30000" />
+      <workItem from="1627997537873" duration="34000" />
+      <workItem from="1627997898262" duration="777000" />
+      <workItem from="1628100480344" duration="7218000" />
+      <workItem from="1628151353967" duration="517000" />
+      <workItem from="1628254829222" duration="36000" />
+      <workItem from="1628623107283" duration="2421000" />
+      <workItem from="1628883868042" duration="3398000" />
+      <workItem from="1628960407783" duration="711000" />
+      <workItem from="1629104595191" duration="584000" />
+      <workItem from="1629114618286" duration="538000" />
+      <workItem from="1629128419585" duration="504000" />
+      <workItem from="1629137152368" duration="6472000" />
+      <workItem from="1629198623870" duration="1621000" />
+      <workItem from="1629224174658" duration="1511000" />
+      <workItem from="1629283899218" duration="590000" />
+      <workItem from="1630246533856" duration="1543000" />
+      <workItem from="1630255214683" duration="508000" />
+      <workItem from="1630256536691" duration="7049000" />
+      <workItem from="1630347428330" duration="1497000" />
+      <workItem from="1630397484404" duration="469000" />
+      <workItem from="1631102034984" duration="3812000" />
+      <workItem from="1631123781449" duration="6018000" />
+      <workItem from="1631190164770" duration="315000" />
+      <workItem from="1631190734196" duration="749000" />
+    </task>
+    <task id="LOCAL-00001" summary="idea del">
+      <created>1631106733372</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1631106733372</updated>
+    </task>
+    <task id="LOCAL-00002" summary="idea del">
+      <created>1631106834446</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1631106834446</updated>
+    </task>
+    <task id="LOCAL-00003" summary="5 task">
+      <created>1631129654070</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1631129654070</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="idea del" />
+    <MESSAGE value="5 task" />
+    <option name="LAST_COMMIT_MESSAGE" value="5 task" />
+  </component>
+</project>
