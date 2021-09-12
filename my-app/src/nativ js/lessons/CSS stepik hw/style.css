@@ -1,0 +1,190 @@
+* {
+    font-family: Roboto, sans-serif;
+}
+
+.headerContainer {
+    height: 30px;
+    width: 100%;
+    max-width: 1219px; /*максимальная ширина может иметь другое значение*/
+    padding: 55px;
+    margin: 0 auto;
+    background-color: #007765;
+    position: fixed;
+    left: 95px;
+    top: 0;
+}
+
+.logo {
+    float: left;
+    padding: 10px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    color: white;
+    font-size: 27px;
+}
+
+.headerContainer:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.contentContainer {
+    min-height: 300px;
+    width: 100%;
+    max-width: 1219px; /*максимальная ширина может иметь другое значение*/
+    padding: 250px 55px 55px 55px;
+
+    margin: 0 auto;
+    background-image: url('images/image-8.png');
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    font-size: 55px;
+    text-align: center
+
+}
+
+.textContainer {
+    min-height: 300px;
+    width: 100%;
+    max-width: 1219px; /*максимальная ширина может иметь другое значение*/
+    padding: 55px;
+    margin: 0 auto;
+    background-color: #f0ecec;
+    text-align: center
+
+}
+
+h1 {
+    color: #007765;
+    font-size: 50px;
+    text-align: center
+}
+
+.textContainer p {
+    color: black;
+    font-size: 30px;
+    text-align: left;
+}
+
+.bluePicture {
+    min-height: 300px;
+    width: 100%;
+    max-width: 1219px; /*максимальная ширина может иметь другое значение*/
+    padding: 55px;
+    margin: 0 auto;
+    background-image: url('images/image-9.png');
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    font-size: 55px;
+    text-align: center
+
+}
+
+.bluePicture p {
+    width: 72%;
+    font-size: 48px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 128px 128px;
+    text-align: center;
+    color: #fff;
+}
+
+.textContainerwithLogo {
+    min-height: 300px;
+    width: 100%;
+    max-width: 1219px; /*максимальная ширина может иметь другое значение*/
+    padding: 55px;
+    margin: 0 auto;
+    background-color: #fff;
+    text-align: center;
+}
+
+.textContainerwithLogo:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.textContainerwithLogo p {
+    color: black;
+    font-size: 30px;
+    text-align: left;
+
+}
+
+.textContainerwithLogo img {
+    float: left;
+    padding: 20px;
+}
+
+.photoContainer {
+    min-height: 650px;
+    width: 100%;
+    max-width: 1219px; /*максимальная ширина может иметь другое значение*/
+    padding: 55px;
+    margin: 0 auto;
+    background-color: #f0ecec;
+    position: relative;
+}
+
+.images10 {
+    position: absolute;
+    top:180px;
+    left:200px;
+}
+.images11{
+    position: absolute;
+    top:180px;
+    left:580px;
+}
+.images12{
+    position: absolute;
+    top:180px;
+    right:200px;
+}
+.images13{
+    position: absolute;
+    bottom:20px;
+    left:200px;
+}
+.images14{
+    position: absolute;
+    bottom:20px;
+    left:580px;
+}
+.images15{
+    position: absolute;
+    bottom:20px;
+    right:200px;
+}
+
+.footer{
+    min-height:150px;
+    width: 100%;
+    max-width: 1219px; /*максимальная ширина может иметь другое значение*/
+    padding: 55px;
+    margin: 0 auto;
+    background-color: #777171;
+    text-align: center;
+    color:#fff;
+}
