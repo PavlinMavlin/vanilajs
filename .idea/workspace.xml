@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0d61feb-60a3-48ae-800c-cb6bd4f5b35b" name="Default Changelist" comment="added 2.8-2.15 task">
+    <list default="true" id="a0d61feb-60a3-48ae-800c-cb6bd4f5b35b" name="Default Changelist" comment="hw2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/nativ js/lessons/CSS stepik hw/images/PPCLogo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/nativ js/lessons/CSS stepik hw/images/PPCLogo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/nativ js/lessons/CSS stepik hw/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/nativ js/lessons/CSS stepik hw/images/image-10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/nativ js/lessons/CSS stepik hw/images/image-11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/nativ js/lessons/CSS stepik hw/images/image-12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/nativ js/lessons/CSS stepik hw/images/image-13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/nativ js/lessons/CSS stepik hw/images/image-14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/nativ js/lessons/CSS stepik hw/images/image-15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/nativ js/lessons/CSS stepik hw/images/image-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/nativ js/lessons/CSS stepik hw/images/image-9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/nativ js/lessons/CSS stepik hw/images/logo.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +49,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/my-app/src/nativ js/lessons/CSS stepik hw" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/my-app/src/nativ js/lessons/CSS stepik hw/hw2" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/my-app/node_modules/react-scripts" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
@@ -45,6 +57,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\it-kamasutra\big-vanila-project\my-app\src\nativ js\lessons\CSS stepik hw\hw2" />
+      <recent name="E:\it-kamasutra\big-vanila-project\my-app\src\nativ js\lessons\CSS stepik hw\hw1" />
       <recent name="E:\it-kamasutra\big-vanila-project\my-app\src\nativ js\lessons\CSS stepik hw" />
       <recent name="E:\it-kamasutra\big-vanila-project\my-app\src\nativ js\lessons" />
     </key>
@@ -166,7 +180,8 @@
       <workItem from="1631123781449" duration="6018000" />
       <workItem from="1631190164770" duration="315000" />
       <workItem from="1631190734196" duration="12683000" />
-      <workItem from="1631351298982" duration="23475000" />
+      <workItem from="1631351298982" duration="24116000" />
+      <workItem from="1631522563646" duration="3309000" />
     </task>
     <task id="LOCAL-00001" summary="idea del">
       <created>1631106733372</created>
@@ -245,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631213263263</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="hw2">
+      <created>1631461200002</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1631461200002</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,6 +295,7 @@
     <MESSAGE value="added 2.1-2.4 task" />
     <MESSAGE value="added 2.4-2.8 task" />
     <MESSAGE value="added 2.8-2.15 task" />
-    <option name="LAST_COMMIT_MESSAGE" value="added 2.8-2.15 task" />
+    <MESSAGE value="hw2" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw2" />
   </component>
 </project>
